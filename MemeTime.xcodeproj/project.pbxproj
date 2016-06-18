@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BCB831571D13A513000E7BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB831561D13A513000E7BE2 /* AppDelegate.swift */; };
-		BCB831591D13A513000E7BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB831581D13A513000E7BE2 /* ViewController.swift */; };
 		BCB8315C1D13A513000E7BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB8315A1D13A513000E7BE2 /* Main.storyboard */; };
-		BCB8315E1D13A513000E7BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB8315D1D13A513000E7BE2 /* Assets.xcassets */; };
 		BCB831611D13A513000E7BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB8315F1D13A513000E7BE2 /* LaunchScreen.storyboard */; };
+		BCB831691D13A82D000E7BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB831681D13A82D000E7BE2 /* Assets.xcassets */; };
+		BCB8316C1D1482AC000E7BE2 /* MemeTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB831581D13A513000E7BE2 /* MemeTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCB831531D13A512000E7BE2 /* MemeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB831561D13A513000E7BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB831581D13A513000E7BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCB831581D13A513000E7BE2 /* MemeTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTimeViewController.swift; sourceTree = "<group>"; };
 		BCB8315B1D13A513000E7BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCB8315D1D13A513000E7BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB831601D13A513000E7BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB831621D13A513000E7BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB831681D13A82D000E7BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				BCB831561D13A513000E7BE2 /* AppDelegate.swift */,
-				BCB831581D13A513000E7BE2 /* ViewController.swift */,
+				BCB831581D13A513000E7BE2 /* MemeTimeViewController.swift */,
 				BCB8315A1D13A513000E7BE2 /* Main.storyboard */,
-				BCB8315D1D13A513000E7BE2 /* Assets.xcassets */,
+				BCB831681D13A82D000E7BE2 /* Assets.xcassets */,
 				BCB8315F1D13A513000E7BE2 /* LaunchScreen.storyboard */,
 				BCB831621D13A513000E7BE2 /* Info.plist */,
 			);
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					BCB831521D13A512000E7BE2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F9F4545RE9;
 					};
 				};
 			};
@@ -123,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB831611D13A513000E7BE2 /* LaunchScreen.storyboard in Resources */,
-				BCB8315E1D13A513000E7BE2 /* Assets.xcassets in Resources */,
+				BCB831691D13A82D000E7BE2 /* Assets.xcassets in Resources */,
 				BCB8315C1D13A513000E7BE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB831591D13A513000E7BE2 /* ViewController.swift in Sources */,
 				BCB831571D13A513000E7BE2 /* AppDelegate.swift in Sources */,
+				BCB8316C1D1482AC000E7BE2 /* MemeTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemeTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happyfeatmedia.MemeTime;
@@ -260,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemeTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happyfeatmedia.MemeTime;

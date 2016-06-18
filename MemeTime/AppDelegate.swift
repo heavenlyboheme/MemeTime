@@ -42,5 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    //BEGIN MEME EDITOR CODE 
+    
+
+    
+    
+    // END MEME EDITOR CODE
+    
 }
 
